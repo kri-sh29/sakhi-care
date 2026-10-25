@@ -1,6 +1,6 @@
 // API connection file. Change this URL when you deploy your backend.
 // Local backend: http://localhost:8000
-const SAKHICARE_API_URL = "http://localhost:8000";
+const SAKHICARE_API_URL = "https://sakhi-care.onrender.com";
 
 async function getAISummary(payload) {
   const response = await fetch(`${SAKHICARE_API_URL}/api/summary`, {
